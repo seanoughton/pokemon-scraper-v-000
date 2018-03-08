@@ -13,12 +13,12 @@ class Pokemon
 
   def self.save(name,type,database_connection)
     database_connection.execute("INSERT INTO pokemon (name,type) VALUES (?,?)",name,type)
-    Pokemon.new(id,name,type,db)
   end
 
 
   def self.find(number,database_connection)
     database_connection.execute("SELECT * FROM pokemon WHERE id=?", number)
+      Pokemon.new(id,name,type,db)
   end
 
 
