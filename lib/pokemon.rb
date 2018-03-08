@@ -1,9 +1,7 @@
 class Pokemon
 
-  def initialize(name)
-    @name = name
-    @type = type
-    @db = db
+  def initialize(:name,:type, :db)
+
   end
 
 
