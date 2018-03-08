@@ -2,8 +2,7 @@ class Pokemon
 
   attr_accessor :id, :name, :type, :db
 
-  @@database_connection = :db
-  @@database_connection.execute
+
 
   def initialize(id: nil, name: nil, type: nil, db: nil)
 
