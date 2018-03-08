@@ -5,7 +5,8 @@ class Pokemon
 
 
   def initialize(id: nil, name: nil, type: nil, db: nil)
-      @id = :id
+      @id = :id,
+      @name = :name
 
   end
 
