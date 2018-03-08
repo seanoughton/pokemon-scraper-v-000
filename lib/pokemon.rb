@@ -4,7 +4,7 @@ class Pokemon
 
 
 
-  def initialize(id: nil, name: nil, type: nil, db: nil)
+  def initialize(id: , name: nil, type: nil, db: nil)
 
   end
 
