@@ -1,1 +1,1 @@
-ALTER TABLE pokemon ADD COLUMN breed TEXT SET DEFAULT 'Sandnes';
+ALTER TABLE pokemon ADD COLUMN hp TEXT SET DEFAULT 'Sandnes';
