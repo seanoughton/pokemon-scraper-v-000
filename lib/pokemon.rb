@@ -13,8 +13,8 @@ class Pokemon
   end
 
 
-  def self.find(id,database_connection)
-    database_connection.execute("SELECT * FROM pokemon WHERE id = ?",id)
+  def self.find(number,database_connection)
+    database_connection.execute("SELECT * FROM pokemon WHERE id = ?",number)
   end
 
 
