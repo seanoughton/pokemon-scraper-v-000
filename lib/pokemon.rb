@@ -14,8 +14,8 @@ class Pokemon
 
 
 
-  def self.find(id,database_connection)
-    database_connection.execute("SELECT * FROM pokemon WHERE id = ?",id)
+  def self.find(something,database_connection)
+    #database_connection.execute("SELECT * FROM pokemon WHERE id = ?",id)
   end
 
 
