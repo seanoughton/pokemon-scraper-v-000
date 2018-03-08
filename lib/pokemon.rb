@@ -25,7 +25,7 @@ class Pokemon
     #self.hp = new_hp
     #database_connection.execute("ALTER TABLE pokemon VALUE(?)",new_hp)
     #UPDATE characters SET species = "Martian" WHERE id = 8;
-    database_connection = pokemon_instance.db
+    database_connection = pokemon_instance.name
     database_connection.execute("UPDATE pokemon SET hp=? WHERE id=?",new_hp, pokemon_instance.id)
   end
 
