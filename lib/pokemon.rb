@@ -23,7 +23,7 @@ class Pokemon
 
   def alter_hp(hp,database_connection)
     database_connection.execute("ALTER TABLE pokemon
-    ADD COLUMN hp INTEGER DEFAULT(?)",hp)
+    VALUES(?)",hp)
   end
 
 
