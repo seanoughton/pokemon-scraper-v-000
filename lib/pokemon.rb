@@ -27,7 +27,7 @@ class Pokemon
     #UPDATE characters SET species = "Martian" WHERE id = 8;
     #id_number = self.id
     #database_connection.execute("UPDATE pokemon SET hp=2 WHERE id=1",new_hp,id_number)
-    database_connection.execute("UPDATE pokemon SET hp=#{59}")
+    database_connection.execute("UPDATE pokemon SET hp=#{59} WHERE id=#{1})
   end
 
 
