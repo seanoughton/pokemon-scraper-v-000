@@ -21,5 +21,7 @@ class Pokemon
     Pokemon.new(id:pokemon_array[0],name:pokemon_array[1],type:pokemon_array[2],db:database_connection)
   end
 
+  #ALTER TABLE cats ADD COLUMN breed TEXT;
+
 
 end
