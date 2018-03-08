@@ -22,9 +22,8 @@ class Pokemon
   end
 
   def alter_hp(new_hp,database_connection)
-    self.hp = new_hp
-    #database_connection.execute("ALTER TABLE pokemon
-    #VALUE(?)",hp)
+    #self.hp = new_hp
+    database_connection.execute("ALTER TABLE pokemon VALUE(?)",new_hp)
   end
 
 
