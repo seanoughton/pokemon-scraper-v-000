@@ -1,0 +1,1 @@
+ALTER TABLE pokemon ADD COLUMN breed TEXT SET DEFAULT 'Sandnes';
