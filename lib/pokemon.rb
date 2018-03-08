@@ -10,7 +10,7 @@ class Pokemon
 
   def self.save(id,name,type)
     #:db.execute#("INSERT INTO pokemon (name,type) VALUES (?,?,?)",id,name,type)
-    @@all << name
+    
   end
 
 
