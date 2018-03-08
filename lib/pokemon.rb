@@ -8,7 +8,7 @@ class Pokemon
       @id = :id
       @name
       @type
-      @db 
+      @db
   end
 
   def self.save(name,type,database_connection)
