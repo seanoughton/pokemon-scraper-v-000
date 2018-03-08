@@ -21,7 +21,7 @@ class Pokemon
     Pokemon.new(id:pokemon_array[0],name:pokemon_array[1],type:pokemon_array[2],db:database_connection,hp:pokemon_array[4])
   end
 
-  def alter_hp(new_hp,pokemon_instance)
+  def alter_hp(new_hp,database_connection)
     #self.hp = new_hp
     #database_connection.execute("ALTER TABLE pokemon VALUE(?)",new_hp)
     #UPDATE characters SET species = "Martian" WHERE id = 8;
