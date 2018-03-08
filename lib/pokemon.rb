@@ -12,7 +12,7 @@ class Pokemon
     database_connection.execute("INSERT INTO pokemon (name,type) VALUES (?,?)",name,type)
   end
 
-  def id 
+  def id
   end
 
   def self.find(id,database_connection)
