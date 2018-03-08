@@ -19,7 +19,7 @@ class Pokemon
   def self.find(number,database_connection)
     #database_connection.execute("SELECT * FROM pokemon WHERE id=?", number)
     pokemon_array = database_connection.execute("SELECT * FROM pokemon WHERE id=?", number).flatten
-    Pokemon.new()
+    Pokemon.new(1,"sean", "something","database")
   end
 
 
